@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812F5246292791A300B7066C /* dataStracture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F5245292791A300B7066C /* dataStracture.swift */; };
+		812F52482927985700B7066C /* MyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F52472927985700B7066C /* MyCodeView.swift */; };
+		812F524D29279B3400B7066C /* SelectedCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F524C29279B3400B7066C /* SelectedCodeView.swift */; };
 		81855B8D2923DBC3005BB13A /* MyGoogleAutenthicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81855B8C2923DBC3005BB13A /* MyGoogleAutenthicatorApp.swift */; };
-		81855B8F2923DBC3005BB13A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81855B8E2923DBC3005BB13A /* ContentView.swift */; };
+		81855B8F2923DBC3005BB13A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81855B8E2923DBC3005BB13A /* MainView.swift */; };
 		81855B912923DBC4005BB13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81855B902923DBC4005BB13A /* Assets.xcassets */; };
 		81855B942923DBC4005BB13A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81855B932923DBC4005BB13A /* Preview Assets.xcassets */; };
 		81855B9E2923DBC5005BB13A /* MyGoogleAutenthicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81855B9D2923DBC5005BB13A /* MyGoogleAutenthicatorTests.swift */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		812F5245292791A300B7066C /* dataStracture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataStracture.swift; sourceTree = "<group>"; };
+		812F52472927985700B7066C /* MyCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCodeView.swift; sourceTree = "<group>"; };
+		812F524C29279B3400B7066C /* SelectedCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCodeView.swift; sourceTree = "<group>"; };
 		81855B892923DBC3005BB13A /* MyGoogleAutenthicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoogleAutenthicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81855B8C2923DBC3005BB13A /* MyGoogleAutenthicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoogleAutenthicatorApp.swift; sourceTree = "<group>"; };
-		81855B8E2923DBC3005BB13A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81855B8E2923DBC3005BB13A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		81855B902923DBC4005BB13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81855B932923DBC4005BB13A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81855B992923DBC5005BB13A /* MyGoogleAutenthicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGoogleAutenthicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				81855B8C2923DBC3005BB13A /* MyGoogleAutenthicatorApp.swift */,
-				81855B8E2923DBC3005BB13A /* ContentView.swift */,
+				81855B8E2923DBC3005BB13A /* MainView.swift */,
 				81855B902923DBC4005BB13A /* Assets.xcassets */,
 				81855B922923DBC4005BB13A /* Preview Content */,
+				812F5245292791A300B7066C /* dataStracture.swift */,
+				812F52472927985700B7066C /* MyCodeView.swift */,
+				812F524C29279B3400B7066C /* SelectedCodeView.swift */,
 			);
 			path = MyGoogleAutenthicator;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81855B8F2923DBC3005BB13A /* ContentView.swift in Sources */,
+				81855B8F2923DBC3005BB13A /* MainView.swift in Sources */,
 				81855B8D2923DBC3005BB13A /* MyGoogleAutenthicatorApp.swift in Sources */,
+				812F5246292791A300B7066C /* dataStracture.swift in Sources */,
+				812F524D29279B3400B7066C /* SelectedCodeView.swift in Sources */,
+				812F52482927985700B7066C /* MyCodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
