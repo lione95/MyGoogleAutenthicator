@@ -33,4 +33,5 @@ extension Codes: Comparable {
 extension Color {
     static let BlueAutenthicator = Color("BlueAutenthicator")
     static let WhiteAutenthicator = Color("WhiteAutenthicator")
+    static let PurpleAutenthicator = Color("PurpleAutenthicator")
 }

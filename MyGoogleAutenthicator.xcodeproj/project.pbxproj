@@ -17,6 +17,7 @@
 		81855B9E2923DBC5005BB13A /* MyGoogleAutenthicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81855B9D2923DBC5005BB13A /* MyGoogleAutenthicatorTests.swift */; };
 		81855BA82923DBC5005BB13A /* MyGoogleAutenthicatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81855BA72923DBC5005BB13A /* MyGoogleAutenthicatorUITests.swift */; };
 		81855BAA2923DBC5005BB13A /* MyGoogleAutenthicatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81855BA92923DBC5005BB13A /* MyGoogleAutenthicatorUITestsLaunchTests.swift */; };
+		81E4EA13292BC112001D3225 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 81E4EA12292BC112001D3225 /* CodeScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E4EA13292BC112001D3225 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = MyGoogleAutenthicator;
+			packageProductDependencies = (
+				81E4EA12292BC112001D3225 /* CodeScanner */,
+			);
 			productName = MyGoogleAutenthicator;
 			productReference = 81855B892923DBC3005BB13A /* MyGoogleAutenthicator.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 81855B802923DBC3005BB13A;
+			packageReferences = (
+				81E4EA11292BC112001D3225 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 81855B8A2923DBC3005BB13A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -432,6 +440,7 @@
 				DEVELOPMENT_TEAM = 4TH2649S46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to scan codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,6 +470,7 @@
 				DEVELOPMENT_TEAM = 4TH2649S46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to scan codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -595,6 +605,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81E4EA11292BC112001D3225 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81E4EA12292BC112001D3225 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E4EA11292BC112001D3225 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81855B812923DBC3005BB13A /* Project object */;
 }
