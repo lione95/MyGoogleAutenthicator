@@ -12,7 +12,7 @@ import CodeScanner
 struct MyCodeView: View {
     
     @State var mySities: [Codes] = [Codes(nomeSito: "Twitch", username: "User1", logoSito: Image("TwitchLogo")), Codes(nomeSito: "Google", username: "User2", logoSito: Image("GoogleLogo")), Codes(nomeSito: "Twitter", username: "User3", logoSito: Image("TwitterLogo")), Codes(nomeSito: "Nintendo", username: "User4", logoSito: Image("NintendoLogo")), Codes(nomeSito: "Epic", username: "User5", logoSito: Image("EpicLogo")), Codes(nomeSito: "NCSOFT", username: "User6", logoSito: Image("NCSOFTLogo")), Codes(nomeSito: "Ubisoft", username: "User7", logoSito: Image("UbisoftLogo")), Codes(nomeSito: "RockStar", username: "User8", logoSito: Image("RockStarLogo"))]
-    let layout = [GridItem(.flexible()), GridItem(.flexible()), ]
+    let layout = [GridItem(.flexible()), GridItem(.flexible()),]
     @State var isPresented = false
     @State var nome = ""
     @State var user = ""

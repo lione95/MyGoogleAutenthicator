@@ -41,7 +41,6 @@ struct SelectedCodeView: View {
                                 Text("You still have")
                                 ZStack{
                                     Circle().trim(from: 0, to: 1).stroke(Color.BlueAutenthicator.opacity(0.09), style: StrokeStyle(lineWidth: 5, lineCap: .round)).frame(width: 60,height: 60)
-                                    
                                     Circle().trim(from: 0, to: self.to).stroke(Color.BlueAutenthicator, style: StrokeStyle(lineWidth: 5, lineCap: .round)).frame(width: 60,height: 60).rotationEffect(.init(degrees: -90))
                                     VStack{
                                         Text("\(self.count)").font(.title).font(.system(size: 20))
